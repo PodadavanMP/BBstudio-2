@@ -125,15 +125,12 @@ button:hover {
     border-radius: 25%;
     height: 480px;
     width: 485px;
-    order: 2;
-
 }
 
 .image2 {
     border-radius: 25%;
     height: 480px;
-    width: 485px;
-    order: 1;   
+    width: 485px; 
 }
 
 /* section - text */
@@ -156,11 +153,10 @@ button:hover {
 /* uvod */
 
 #uvod {
-    display: flex; /* Použijeme Flexbox pro uspořádání prvků */
-    align-items: center; /* Vertikální zarovnání na střed */
-    justify-content: space-between; /* Prvky jsou rozloženy s mezerami mezi nimi */
+   display: grid 
+   gap: 1rem;
+   grid-template-columns: 1fr 1fr;
 }
-
 
 
 /* masaze */
@@ -168,6 +164,9 @@ button:hover {
     display: flex;
 }
 
+.image2 {
+    position: right;
+}
 
 /* pedikura */
 #pedikura {
