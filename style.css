@@ -18,7 +18,7 @@ body {
 h1 {
     font-size: 3.75rem;
     font-family: 'Times New Roman', Times, serif;
-    color: #333;
+    color: #35463E;
 }
 
 h2 {
@@ -152,15 +152,15 @@ button:hover {
 
 /* uvod */
 
-#uvod {
-   display: grid 
+#intro {
+   display: grid;
    gap: 1rem;
    grid-template-columns: 1fr 1fr;
 }
 
 
 /* masaze */
-#masaze {
+#masage {
     display: flex;
 }
 
@@ -169,17 +169,17 @@ button:hover {
 }
 
 /* pedikura */
-#pedikura {
+#pedicure {
     display: flex;
 }   
 
 /* cenik */
-#cenik {
+#price {
     text-align: center;
 }
 
 
-.cenik {
+.priceimage {
     border-radius: 5rem;
 }
 
@@ -190,7 +190,7 @@ button:hover {
 
 
 /* kontakty */
-#kontakty {
+#contacts {
     display: flex;
     
 }
